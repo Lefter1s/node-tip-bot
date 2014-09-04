@@ -5,14 +5,14 @@ connection:
   status_command: ACC
   debug: false
 login: 
-  nickname: CAIx
-  username: CAIx
-  realname: node.js CAIx tipping bot
+  nickname: coin
+  username: coin
+  realname: node.js coin tipping bot
   nickserv_password: 
 channels: 
-  - '#caishen'
+  - '#whatever'
 log:
-  file: caix.log
+  file: coin.log
 rpc:
   host: localhost
   port: 1513
@@ -23,8 +23,8 @@ coin:
   min_withdraw: 1
   min_confirmations: 10
   min_tip: 1
-  short_name: CAIx
-  full_name: CAIx
+  short_name: BTC
+  full_name: Bitcoin
 webadmin:
   enabled: false
   port: 8080
