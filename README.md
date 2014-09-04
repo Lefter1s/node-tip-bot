@@ -1,4 +1,4 @@
-node-tip-bot is an open-source node.js IRC bot for tipping with altcoins. It uses [node-caix](https://github.com/lefter1s/node-caix) for integration with CAIx's JSON RPC API.
+node-tip-bot is an open-source node.js IRC bot for tipping with altcoins. It uses [node-coin](https://github.com/lefter1s/node-coin) for integration with altcoin's JSON RPC API.
 
 # Installation
 To install node-tip-bot simply clone this repo and install dependencies:
@@ -42,7 +42,7 @@ Logging settings.
 ## rpc
 JSON RPC API connection info.
 * **host** - JSON RPC API hostname
-* **port** - API port (by default 22555 for cannacoin)
+* **port** - API port (Rpc Port)
 * **user** - API username
 * **pass** - API password (keep that secure)
 
@@ -53,8 +53,8 @@ Basic coin settings.
 * **min_confirmations** - minimum amount of confirmations needed to tip/withdraw coins
 * **min_tip** - minimum amount of coins to tip
 * **min_rain** - minimum amount of coins to make rain
-* **short_name** - short coin's name (eg. `CCN`)
-* **full_name** - full coin's name (eg. `Cannacoin`)
+* **short_name** - short coin's name (eg. `BTC`)
+* **full_name** - full coin's name (eg. `Bitcoin`)
 
 ## commands
 Here you can restrict some commands to work only on PM/channel.
