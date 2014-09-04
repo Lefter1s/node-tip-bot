@@ -2,7 +2,7 @@ var irc    = require('irc')
 , winston  = require('winston')
 , fs       = require('fs')
 , yaml     = require('js-yaml')
-, coin     = require('node-caix')
+, coin     = require('node-coin')
 , webadmin = require('../lib/webadmin/app');
 
 // check if the config file exists
